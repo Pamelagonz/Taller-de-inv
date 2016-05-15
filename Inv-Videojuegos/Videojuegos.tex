@@ -55,7 +55,7 @@
 %\usepackage[applemac]{inputenc} %applemac support if unicode package fails
 %\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
 
-\usepackage{url}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                             %%
@@ -79,8 +79,8 @@
 
 
 %%% Put your definitions there:
-\startlocaldefs
-\endlocaldefs
+%\startlocaldefs
+%\endlocaldefs
 
 
 %%% Begin ...
@@ -119,7 +119,8 @@
    corref={aff1},                       % id of corresponding address, if any
    noteref={n1},                        % id's of article notes, if any
    email={iscgonzpame@gmail.com}   % email address
-]{\inits{PG}\fnm{Pamela C} \snm{González}}
+]
+{\inits{PG}\fnm{Pamela C} \snm{González}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -138,13 +139,7 @@
   \city{Tijuana},                              % city
   \cny{México}                                    % country
 }
-\address[id=aff2]{%
-  \orgname{Marine Ecology Department, Institute of Marine Sciences Kiel},
-  \street{D\"{u}sternbrooker Weg 20},
-  \postcode{24105}
-  \city{Kiel},
-  \cny{Germany}
-}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -256,11 +251,22 @@ Dar a conocer verdades de los videojuegos, enfocandonos en el desarrollo de las 
 Los videojuegos no solo tienen ventajas y desventajas, tambien tienen influencias y efectos que permiten obtener diferentes formas de que, quienes los jueguen, se desarrollen. %\cite{koon,oreg,khar,zvai,xjon,schn,pond,smith,marg,hunn,advi,koha,mouse}
 
 \section*{Mundo gamer}
-Text for this section \ldots
+
+Tipos de gamer:
+\begin{itemize} 
+	\item Gamer: Aquellos que ni dedican tantas horas al juego, ni se dedican a un solo juego en concreto. Son los más “abstractos”, pues suelen jugar a muchos juegos en distintas plataformas. La mayoría de los que hemos jugado alguna vez a un videojuego, aunque sea en el móvil, tiene un hueco aquí.
+	\item Mid-core Gamer: Siguen sin dedicar tantas horas a jugar, pero si se suelen centrar en un juego específico. Tienen el espíritu de competición necesario y suelen disfrutar juegos complejos.
+	\item Hardcore Gamer: Aquí damos un paso más. Se engloban aquí todos los que dedican horas a perfeccionar su habilidad en un solo videojuego, incluso a llegar a un nivel de experto. También aquellos que buscan completar los videojuegos siempre al 100{\%}. Suelen participar en competiciones.
+	\item Pro-Gamer: Personas que se dedican a jugar como medio de vida, es decir, son económicamente dependientes de jugar. Es posible debido a las distintas ligas que hay por el mundo, en las que se llegan a repartir premios de hasta 250.000 dólares, como es el caso de la Major League Gaming, en Estados Unidos.
+	\item Novato o Newbie: Poco hay que explicar de este tipo de jugadores. Son aquellos que están empezando en algún juego, normalmente en aquellos online. Suelen ser blanco de burla, por desgracia, de los jugadores más experimentados.
+	\item Retrogamer: Centrados en juegos antiguos o arcade. Suelen coleecionarlos e incluso algunos hacen sus propias máquinas recreativas.
+\end{itemize} (from reference\cite{tiposgamer})
 
 \subsection*{Influencias y efectos de los videojuegos}
-\cite{juegoycine}
-
+Uno de los principales temas a tratar es el de la violencia, se culpa a los videojuegos de ser quienes hacen a quienes los juegan, violentos, y es la razón de muchas investigaciones. Mientras es verdad de que toman de cierta manera la culpa de ello, se puede decir que tienen cierta influencia en alentar este comportamiento más que un efecto, ya que es necesario empezar teniendo una tendencia por ser violento y fuera de control, sino esto no explicaria porque hay quienes no sufren este comprtamiento a pesar de estar expuestos de la misma manera a estos juegos.(from reference \cite{juegoycine} \cite{juegosviolencia})
+\newline
+\newline
+La gente reconoce que todos los que viven con niños o jovenes, deben tener algún tipo de videojuego, y que no es necesario estar en contra de ellos, sino prestar atención al comportamiento, ya que con experiencias dia a dia las cualidades de una persona no se muestran en su totalidad, pero desde que se crearon los videojuegos se abrio una puesta distinta a las experiencias, por lo que los niños y jovenes lo toman como una experiencia en tiempo real, más aun siendo que hoy en día existen diversos videojuegos en primera persona que te dan esa sensación.(from references \cite{juegocuidado})
 \subsubsection*{En el aprendizaje}
 Los videojuegos constituyen en este momento la entrada de los niños al mundo digital, las nuevas generaciones se alfabetizan digitalmente a través del juego y adquieren competencias diferentes a las de generaciones previas, competencias que les han de servir para manejarse en la sociedad digital.
 \newline
@@ -278,10 +284,12 @@ Por otro lado los gamers ven una dimensión de caracter educativo en los videoju
 \subsubsection*{En Educación}
 Cuando queremos hablar de educación, la ayoría de las veces nos enfocamos en la tipica educación escolar, pero se le puede dar otro enfoque el cual sigue siendo educación, como la comunicación y la colaboración.(from reference\cite{sanchez2008videojuegos})
 \newline
-Las investigaciones sobre la relación entre los videojuegos y los resultados académicos son amplias, pero de resultados muy poco concluyentes. En realidad, los trabajos recogen elementos anecdóticos y descriptivos. No obstante, hay que tener presente que, más allá de los aspectos sociales y de motivación obvios, encontrar la evidencia empírica de las ventajas académicas del juego es difícil si se mantienen los mismos enfoques pedagógicos. En realidad el uso del videojuego en la escuela supone un cambio metodológico y, en consecuencia, un cambio también en el foco de aprendizaje. No se trata sólo de aprender competencias relativas al uso de la tecnología y a unos contenidos concretos, sino que el juego también permite el trabajo de competencias relacionadas con la negociación, la toma de decisiones, la comunicación y la reflexión
+Las investigaciones sobre la relación entre los videojuegos y los resultados académicos son amplias, pero de resultados muy poco concluyentes. En realidad, los trabajos recogen elementos anecdóticos y descriptivos. No obstante, hay que tener presente que, más allá de los aspectos sociales y de motivación obvios, encontrar la evidencia empírica de las ventajas académicas del juego es difícil si se mantienen los mismos enfoques pedagógicos. En realidad el uso del videojuego en la escuela supone un cambio metodológico y, en consecuencia, un cambio también en el foco de aprendizaje. No se trata sólo de aprender competencias relativas al uso de la tecnología y a unos contenidos concretos, sino que el juego también permite el trabajo de competencias relacionadas con la negociación, la toma de decisiones, la comunicación y la reflexión(from refernce\cite{salvat2008videojuegos})
+\newline
 \newline
 En estos tiempos puede parecer claro que el rol del docente necesita ser reinterpretado. El profesorado ya no es a primordial fuente de acceso al saber de sus alumnos, pero sí puede convertirse en orientador y guía para afrontar con criterio el conocimiento de una realidad compleja, así como mostrar las relaciones interdisciplinarias, que el sistema educativo frecuentemente no muestra, presentándose de modo inconexo y pre-elaborado, ofreciendo poco espacio a la experiencia y conocimiento interno del estudiante.(from references\cite{ruiz2012aprendiendo} \cite{pascual2010aprendiendo})
 \newline
+
 .
 \subsubsection*{En habilidades}
 Text for this sub-heading \ldots
@@ -361,9 +369,7 @@ In this section we examine the growth rate of the mean of $Z_0$, $Z_1$ and  \cit
 
 \section*{Figures}
   \begin{figure}[h!]
-  \caption{\csentence{Sample figure title.}
-      A short description of the figure content
-      should go here.}
+  
       \end{figure}
 
 \begin{figure}[h!]
